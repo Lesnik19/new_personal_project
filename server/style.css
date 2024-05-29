@@ -1,0 +1,32 @@
+.main_link {
+            color: red;
+<!--            text-decoration: none-->
+<!--            text-decoration: underline-->
+<!--            text-decoration: overline-->
+<!--            text-decoration: line-through-->
+            }
+
+            .main_link:hover {
+            color: blue;
+            text-decoration: overline;
+            text-decoration-color: red;
+            cursor: pointer;
+<!--            cursor: url('');-->
+            }
+
+            .main_link:active {
+               text-decoration: line-through;
+            }
+
+            .main_link:visited {
+               color: grey;
+            }
+
+            input:disabled {color: grey}
+            input:enabled {color: green}
+            input:required {color: yellow}
+            input{color: blue}
+            input:focus {color: red}
+
+            p.text:empty {color: blue}
+            p.text:not(:empty) {color: red}
